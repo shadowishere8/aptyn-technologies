@@ -1,10 +1,10 @@
-/* General Styles */
+/* Global Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 a {
@@ -12,17 +12,11 @@ a {
     color: inherit;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Navigation Styles */
+/* Header Styles */
 header {
-    background-color: #003366;
+    background-color: #1e3a8a; /* Deep blue */
     color: white;
-    padding: 10px 0;
+    padding: 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -34,8 +28,8 @@ nav {
     align-items: center;
 }
 
-.logo a img {
-    width: 120px; /* Smaller logo */
+.logo img {
+    width: 100px;
     height: auto;
 }
 
@@ -51,41 +45,43 @@ nav {
 .nav-links a {
     color: white;
     font-size: 16px;
-    padding: 8px 12px;
+    font-weight: 500;
+    padding: 10px;
     transition: background-color 0.3s ease;
 }
 
 .nav-links a:hover {
-    background-color: #007bff;
+    background-color: #4a90e2; /* Lighter blue for hover */
     border-radius: 5px;
 }
 
 /* Hero Section */
 .hero {
-    background-color: #0066cc;
+    background-color: #4a90e2;
     color: white;
     text-align: center;
-    padding: 100px 20px;
+    padding: 80px 20px;
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-bottom: 20px;
     font-weight: 700;
 }
 
 .hero p {
-    font-size: 1.2rem;
-    margin-bottom: 40px;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
 }
 
 .cta-button {
     background-color: #ffd700;
-    padding: 12px 30px;
+    padding: 15px 30px;
     color: #333;
     font-size: 18px;
     text-transform: uppercase;
     border-radius: 5px;
+    font-weight: 600;
     transition: background-color 0.3s ease;
 }
 
@@ -93,59 +89,62 @@ nav {
     background-color: #ff5733;
 }
 
-/* About Us Section */
+/* About Section */
 .about-section {
-    background-color: white;
-    padding: 60px 0;
+    background-color: #fff;
+    padding: 60px 20px;
     text-align: center;
 }
 
 .about-section h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .about-section p {
-    font-size: 1.1rem;
-    line-height: 1.8;
+    font-size: 1.2rem;
+    line-height: 1.6;
 }
 
 /* Services Section */
 .services-section {
-    background-color: #f9f9f9;
-    padding: 60px 0;
+    background-color: #f4f4f4;
+    padding: 80px 20px;
 }
 
 .services-section h2 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     text-align: center;
     margin-bottom: 40px;
+    font-weight: 600;
 }
 
 .service-cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
-    justify-content: center;
+    justify-items: center;
 }
 
 .service-card {
     background-color: white;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    flex: 1;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .service-card h3 {
     font-size: 1.8rem;
     margin-bottom: 15px;
+    font-weight: 600;
 }
 
 .service-card p {
@@ -154,7 +153,7 @@ nav {
 
 /* Contact Form */
 .contact-section {
-    background-color: #fff;
+    background-color: white;
     padding: 60px 20px;
 }
 
@@ -170,13 +169,13 @@ input, textarea {
     padding: 12px;
     font-size: 16px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     width: 100%;
 }
 
 button {
     padding: 15px;
-    background-color: #28a745;
+    background-color: #1e3a8a;
     color: white;
     font-size: 18px;
     border: none;
@@ -186,15 +185,15 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #4a90e2;
 }
 
 /* Footer Section */
 footer {
-    background-color: #003366;
+    background-color: #1e3a8a;
     color: white;
     text-align: center;
-    padding: 30px 20px;
+    padding: 40px 20px;
 }
 
 footer ul.social-links {
