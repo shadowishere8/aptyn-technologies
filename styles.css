@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #000000;
     color: #333;
 }
 
@@ -14,7 +14,7 @@ a {
 
 /* Header Styles */
 header {
-    background-color: #1e3a8a; /* Deep blue */
+    background-color: #ffffff; /* Deep blue */
     color: white;
     padding: 10px 20px;  /* Reduced padding */
     position: sticky;
@@ -43,7 +43,7 @@ nav {
 }
 
 .nav-links a {
-    color: white;
+    color: black;
     font-size: 14px; /* Reduced font size */
     font-weight: 500;
     padding: 8px 12px; /* Reduced padding */
@@ -51,7 +51,7 @@ nav {
 }
 
 .nav-links a:hover {
-    background-color: #4a90e2; /* Lighter blue for hover */
+    background-color: #000000; /* Lighter blue for hover */
     border-radius: 5px;
 }
 
