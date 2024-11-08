@@ -35,7 +35,8 @@ nav {
 }
 
 .logo a img {
-    width: 150px;
+    width: 120px; /* Smaller logo */
+    height: auto;
 }
 
 .nav-links {
