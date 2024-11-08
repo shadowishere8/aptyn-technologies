@@ -51,14 +51,14 @@ nav {
 }
 
 .nav-links a:hover {
-    background-color: #000000; /* Lighter blue for hover */
+    background-color: #a6a6a6; /* Lighter blue for hover */
     border-radius: 5px;
 }
 
 /* Hero Section */
 .hero {
-    background-color: #4a90e2;
-    color: white;
+    background-color: #a6a6a6;
+    color: light-gray;
     text-align: center;
     padding: 80px 20px;
 }
@@ -175,7 +175,7 @@ input, textarea {
 
 button {
     padding: 15px;
-    background-color: #1e3a8a;
+    background-color: #737373;
     color: white;
     font-size: 18px;
     border: none;
@@ -185,12 +185,12 @@ button {
 }
 
 button:hover {
-    background-color: #4a90e2;
+    background-color: #a6a6a6;
 }
 
 /* Footer Section */
 footer {
-    background-color: #1e3a8a;
+    background-color: #a6a6a6;
     color: white;
     text-align: center;
     padding: 40px 20px;
