@@ -58,7 +58,7 @@ nav {
 /* Hero Section */
 .hero {
     background-color: #a6a6a6;
-    color: gray;
+    color: white;
     text-align: center;
     padding: 80px 20px;
 }
@@ -75,7 +75,7 @@ nav {
 }
 
 .cta-button {
-    background-color: #000000;
+    background-color: #ffffff;
     padding: 15px 30px;
     color: #333;
     font-size: 18px;
@@ -86,7 +86,7 @@ nav {
 }
 
 .cta-button:hover {
-    background-color: #d9d9d9;
+    background-color: #a6a6a6;
 }
 
 /* About Section */
